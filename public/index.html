@@ -24,7 +24,20 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <title>React App</title><!-- plugins:css -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendors/feather/feather.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
+    <!-- Plugin css for this page -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/vendors/ti-icons/css/themify-icons.css">
+    <link rel="stylesheet" type="text/css" href="%PUBLIC_URL%/assets/js/select.dataTables.min.css">
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/assets/css/vertical-layout-light/style.css">
+    <!-- endinject -->
+    <link rel="shortcut icon" href="%PUBLIC_URL%/assets/images/favicon.png" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -38,6 +51,27 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    --><!-- plugins:js -->
+  <script src="%PUBLIC_URL%/assets/vendors/js/vendor.bundle.base.js"></script>
+  <!-- endinject -->
+  <!-- Plugin js for this page -->
+  <script src="%PUBLIC_URL%/assets/vendors/chart.js/Chart.min.js"></script>
+  <script src="%PUBLIC_URL%/assets/vendors/datatables.net/jquery.dataTables.js"></script>
+  <script src="%PUBLIC_URL%/assets/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/dataTables.select.min.js"></script>
+
+  <!-- End plugin js for this page -->
+  <!-- inject:js -->
+  <script src="%PUBLIC_URL%/assets/js/off-canvas.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/hoverable-collapse.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/template.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/settings.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/todolist.js"></script>
+  <!-- endinject -->
+  <!-- Custom js for this page-->
+  <script src="%PUBLIC_URL%/assets/js/dashboard.js"></script>
+  <script src="%PUBLIC_URL%/assets/js/Chart.roundedBarCharts.js"></script>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <!-- End custom js for this page-->
   </body>
 </html>
