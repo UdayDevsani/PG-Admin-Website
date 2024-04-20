@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Header extends Component {
   render() {
@@ -6,12 +8,12 @@ class Header extends Component {
       <div>
         <nav className="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
           <div className="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-            <a className="navbar-brand brand-logo mr-5" href="index.html">
+            <Link to="/" className="navbar-brand brand-logo mr-5">
               <img src="/assets/images/logo.svg" className="mr-2" alt="logo" />
-            </a>
-            <a className="navbar-brand brand-logo-mini" href="index.html">
+            </Link>
+            <Link to="/" className="navbar-brand brand-logo-mini">
               <img src="/assets/images/logo.svg" alt="logo" />
-            </a>
+            </Link>
           </div>
           <div className="navbar-menu-wrapper d-flex align-items-center justify-content-end">
             <button
